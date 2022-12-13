@@ -1,4 +1,9 @@
-[
+{
+  "users": [
+    { "id": 1, "name": "frank06" },
+    { "id": 2, "name": "winchester" }
+  ],
+  "tasks": [
     { "id": 1, "title": "Laundry 🧺", "completed": false, "userId": 1 },
     { "id": 2, "title": "Groceries 🛒", "completed": true, "userId": 1 },
     { "id": 3, "title": "Reservation at Malloys", "completed": true, "userId": 1 },
@@ -9,4 +14,9 @@
     { "id": 8, "title": "Get new surfboard 🏄‍♀️", "completed": false, "userId": 1 },
     { "id": 9, "title": "Take out trash 🗑", "completed": false, "userId": 2 },
     { "id": 10, "title": "Protest tyrannical mandates 👊", "completed": true, "userId": 1 }
-]
+  ],
+  "todos": [
+    { "id": 1, "title": "Todo 1", "completed": false, "userId": 1 },
+    { "id": 2, "title": "Todo 2", "completed": true, "userId": 1 }
+  ]
+}
